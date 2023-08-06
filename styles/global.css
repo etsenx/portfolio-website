@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Navbar **/
+nav {
+  box-shadow: 0 2px 2px -2px #2b3440;
+  background-color: hsl(var(--b1));
+}
+
+/** Home **/
+.home-section {
+  height: 1040px;
+  z-index: 1;
+}
+
+.white-color {
+  filter: invert(93%) sepia(65%) saturate(4141%) hue-rotate(189deg) brightness(147%) contrast(100%);
+  -webkit-filter: invert(93%) sepia(65%) saturate(4141%) hue-rotate(189deg) brightness(147%) contrast(100%);
+}
+
+.social-link {
+  display: block;
+  width: 40px;
+}
+
+/** Skill **/
+.box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: -10rem auto 0 auto;
+  background-color: white;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border: 1px solid #E6ECF8;
+  box-shadow: 0 2px 2px -2px gray;
+}
+
+.skill-section {
+  height: 700px;
+  z-index: 0;
+}
+
+.skill-columns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill-column {
+  width: 50%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  height: auto;
+  border-right: 1px solid #E6ECF8;
+}
+
+.skill-column:last-child {
+  border-right: 0px;
+}
+
+.skill-img-container {
+  width: 80px;
+  height: 80px;
+  background-color: hsl(var(--b3));
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.skill-desc-container {
+  height: 220px;
+}
+
+.skill-logo-wrapper {
+  width: 4rem;
+  height: 4rem;
+  /* background-color: hsl(var(--pc)); */
+  background: hsl(var(--b2));
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/** Project **/
+.project {
+  width: 1000px;
+  height: 500px;
+}
+
+.project-description {
+  width: 400px;
+  height: 400px;
+}
+
+.project-image {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: transform 1s;
+  -webkit-transition: transform 1s;
+  -moz-transition: transform 1s;
+  -ms-transition: transform 1s;
+  -o-transition: transform 1s;
+}
+
+.project-image:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+/** Contact **/
+.info-logo-wrapper {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-location {
+  filter: invert(34%) sepia(78%) saturate(5634%) hue-rotate(6deg) brightness(107%) contrast(102%);
+  -webkit-filter: invert(34%) sepia(78%) saturate(5634%) hue-rotate(6deg) brightness(107%) contrast(102%);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .home-section {
+    height: 800px;
+  }
+
+  .skill-section {
+    height: 1400px;
+  }
+
+  .skill-columns {
+    flex-direction: column;
+  }
+
+  .skill-column {
+    width: 100%;
+    border: none;
+  }
+
+  .skill-desc-container {
+    height: auto;
+  }
+
+  .project {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  .project-image {
+    width: 320px;
+  }
+
+  .project-description {
+    width: 320px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+
+  .project-image:hover {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .skill-desc-container {
+    height: auto;
+  }
+
+  .project {
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+
+  .project-image:hover {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+}
