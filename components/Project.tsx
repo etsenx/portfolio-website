@@ -17,16 +17,17 @@ export default function Project() {
           githubLink='https://github.com/etsenx/news-explorer-frontend'
           siteLink='https://etsenx.site'
         />
-        {/* <ProjectDesc
-          heading="Around the World"
-          description="This is a frontend project using pure javascript that I build at my Web Developer Bootcamp. Using a bit of API that the bootcamp provide to get or upadate profile values and adding new card, liking the card."
-          imgSrc="/news-explorer2.png"
-          techStack1="HTML"
-          techStack2="CSS"
-          techStack3="Javascript"
-          githubLink="https://github.com/etsenx/web_project_around"
+        <ProjectDesc
+          heading="TripleShop"
+          description="This is a fullstack MERN project I built myself from scratch. Design inspired by online courses."
+          imgSrc="/Project_2.png"
+          techStack1="React"
+          techStack2="Express"
+          techStack3="MongoDB"
+          githubLink="https://github.com/etsenx/store-frontend"
           siteLink="https://etsenx.github.io/web_project_around/"
-        /> */}
+          reverse={true}
+        />
 
         {/* Project 2
         <div className="project flex mx-auto gap-5 flex-row-reverse sm:flex-col md:flex-col">

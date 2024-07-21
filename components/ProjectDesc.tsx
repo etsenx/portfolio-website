@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProjectDesc(props: any) {
   return (
-    <div className="project flex mx-auto gap-5 sm:flex-col md:flex-col">
+    <div className={`project flex mx-auto gap-5 ${props.reverse ? 'flex-row-reverse' : ''} sm:flex-col md:flex-col`}>
       <div className="project-image">
         <Image
           src={props.imgSrc}
