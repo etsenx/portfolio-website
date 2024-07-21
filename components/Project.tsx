@@ -25,7 +25,7 @@ export default function Project() {
           techStack2="Express"
           techStack3="MongoDB"
           githubLink="https://github.com/etsenx/store-frontend"
-          siteLink="https://etsenx.github.io/web_project_around/"
+          siteLink="https://tripleshop.etsenx.site"
           reverse={true}
         />
 
