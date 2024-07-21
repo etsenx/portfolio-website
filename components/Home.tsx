@@ -11,7 +11,7 @@ export default function HomeSection() {
             <br /> A <span className="text-rose-600">Web Developer</span>
           </h1>
           <p className="mx-auto font-extralight text-lg">
-            FullStack React Developer
+            FullStack Developer
           </p>
           <div className="home-icon flex gap-5">
             <a
