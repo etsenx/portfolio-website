@@ -78,7 +78,7 @@ export default function Contact() {
               <h2 className="text-xl font-bold sm:text-center md:text-center">
                 Email
               </h2>
-              <p className="text-lg sm:text-center">stipen08@gmail.com</p>
+              <p className="text-lg sm:text-center">steven@etsenx.com</p>
             </div>
           </div>
         </div>
