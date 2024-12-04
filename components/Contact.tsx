@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="form-container grid grid-cols-1 w-2/4 mx-auto sm:w-3/4">
         <form
           className="form-control mt-4 pb-20"
-          action="https://formsubmit.co/fbbcb852851a17ac2f2f24e8b65dfcf1"
+          action="https://formsubmit.co/261562f1dda915cbe08ca6e33a2bca0f"
           method="POST"
         >
           <div className="join gap-10 mx-auto w-full sm:block">
